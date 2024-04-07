@@ -14,8 +14,8 @@ export function Groups() {
       <Header />
 
       <Highligth 
-        title='Classes' 
-        subtitle='play with your class'
+        title='Groups' 
+        subtitle='play with your groups'
       />
 
       <FlatList 
@@ -33,7 +33,7 @@ export function Groups() {
 
       />
 
-      <Button title="Create new class" />
+      <Button title="Create new group" />
 
     </Container>
   );
