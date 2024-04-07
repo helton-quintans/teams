@@ -33,7 +33,7 @@ export function Groups() {
 
       />
 
-      <Button title="Create first class" />
+      <Button title="Create new class" />
 
     </Container>
   );
