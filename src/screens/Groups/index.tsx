@@ -5,6 +5,7 @@ import { GroupCard } from "@components/GroupCard";
 import { useState } from "react";
 import { FlatList } from "react-native";
 import { ListEmpyty } from "@components/ListEmpty";
+import { Button } from "@components/Button";
 
 export function Groups() {
   const [groups, serGroups] = useState<string[]>([])
@@ -31,6 +32,8 @@ export function Groups() {
         )}
 
       />
+
+      <Button title="Create first class" />
 
     </Container>
   );
